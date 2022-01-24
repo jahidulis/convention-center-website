@@ -1,0 +1,16 @@
+.bg-card{
+    background-color: #3F87F5;
+}
+.text-color{
+    color: white;
+}
+.button-text{
+    color: #3F87F5;
+}
+.button-color{
+    background-color: white;
+    color: #3F87F5;
+}
+.catagories{
+    height: 400px;
+}
