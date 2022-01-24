@@ -14,3 +14,25 @@
 .catagories{
     height: 400px;
 }
+.inner{
+    position:relative;
+    margin: -20px;
+}
+.text-padding{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.images{
+    width: 50%;
+}
+.last-part{
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+.app-size{
+    width: 150px;
+}
+.second-app{
+    width: px;
+}
