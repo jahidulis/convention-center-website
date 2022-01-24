@@ -85,6 +85,116 @@
           </section>
     </header>
     <main>
+      <!-- bonus part -->
+      <section class="container w-25">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Reservation Form
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-4 position-relative">
+                    <label for="validationTooltip01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value="jahidul" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 position-relative">
+                    <label for="validationTooltip02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="islam" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 position-relative">
+                    <label for="validationTooltipUsername" class="form-label">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                      <div class="invalid-tooltip">
+                        Please choose a unique and valid username.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 position-relative">
+                    <label for="validationTooltip03" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationTooltip03" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-3 position-relative">
+                    <label for="validationTooltip04" class="form-label">State</label>
+                    <select class="form-select" id="validationTooltip04" required>
+                      <option selected disabled value="">Choose...</option>
+                      <option>...</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-3 position-relative">
+                    <label for="validationTooltip05" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="validationTooltip05" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid zip.
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Our Fanbase
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <span>Facebook</span>
+                <div class="progress">
+                  <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>Instagram</span>
+                <div class="progress">
+                  <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>youtube</span>
+                <div class="progress">
+                  <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>Twiter</span>
+                <div class="progress">
+                  <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>Wecaht</span>
+                <div class="progress">
+                  <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- package section  -->
       <section class="container pt-5 pb-5 catagories">
         <h1 class="text-center pb-5">Our package</h1>
@@ -153,7 +263,7 @@
           </div>
           <div class="col">
             <div class="inner">
-              <span class="badge bg-danger rounded-pill ">hot</span>
+              <span class="badge bg-danger rounded-pill badge-icon">hot</span>
               <div class="card border-0 shadow-lg p-3 mb-5 text-color rounded-3 bg-card h-100">
                 <h1>$800</h1>
                 <div class="card-body">
@@ -230,70 +340,77 @@
         </div>
       </div>
       <!-- Q&A section  -->
-      <section class="container pb-5">
+      <section class="container pb-5 px-4">
         <h1 class="text-center text-padding">Our package</h1>
-        <div class="d-flex">
-          <div>
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    Accordion Item #1
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                  <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <div class="row gx-5">
+          <div class="col-12 col-lg-6">
+            <div>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    Accordion Item #2
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    Accordion Item #3
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="ps-5">
+          
+          <div class="ps-5 col-lg-6 col-12">
             <img class="img-fluid" src="images/Q&A.jpg" alt="">
           </div>
         </div>
       </section>
-    </main>
+      
+    </main> 
 
-    <footer class="last-part">
-      <div class="d-flex justify-content-between ">
-        <div class="d-flex justify-content-center align-items-center">
-          <p>© 2022 Zahid. All rights reserved</p>
+    <footer class="last-part mt-5">
+      <section class="container">
+        <div class="d-flex justify-content-between ">
+          <div class="d-flex justify-content-center align-items-center">
+            <p>© 2022 Zahid. All rights reserved</p>
+          </div>
+          <div>
+            <p class="text-center">get the app</p>
+            <a href="https://play.google.com/store/apps/details?id=com.google.android.youtube">
+              <img class="app-size" src="images/play-store.png" alt="">
+            </a>
+            <a href="https://www.apple.com/iphone/">
+              <img class="app-size" src="images/app-store.png" alt="">
+            </a>
         </div>
-        <div>
-          <p class="text-center">get the app</p>
-          <a href="https://play.google.com/store/apps/details?id=com.google.android.youtube">
-            <img class="app-size" src="images/play-store.png" alt="">
-          </a>
-          <a href="https://www.apple.com/iphone/">
-            <img class="app-size" src="images/app-store.png" alt="">
-          </a>
-      </div>
+
+      </section>
     </footer>
     <!-- bootstap script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
