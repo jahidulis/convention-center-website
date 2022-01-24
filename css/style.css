@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .bg-card{
     background-color: #3F87F5;
 }
@@ -13,10 +20,6 @@
 }
 .catagories{
     height: 400px;
-}
-.inner{
-    position:relative;
-    margin: -20px;
 }
 .text-padding{
     padding-top: 150px;
@@ -38,4 +41,7 @@
 }
 .badge-icon{
     margin-left: 290px;
+}
+.social-media{
+    text-decoration: none;
 }
